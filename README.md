@@ -1,1 +1,2 @@
-# tradingview-telegram1
+TradingView → Telegram free alerts
+Deploy → Vercel → paste secrets → done
