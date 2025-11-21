@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: tv-alerts
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn main:app --worker-class sync --bind 0.0.0.0:$PORT
